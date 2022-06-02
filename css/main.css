@@ -316,7 +316,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__subscribe {
+.accent-text {
   display: block;
   margin-bottom: 20px;
   margin-top: 0;
