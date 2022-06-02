@@ -113,11 +113,11 @@
     transition-property: border-color;
 
     &:focus {
-        border-color: var(--accent-color);
+        border-color: $accent-color;
     }
 
-    &:focus +.modal__icon{
-        fill: var(--accent-color);
+    &:focus + .modal__icon {
+        fill: $accent-color;
     }
 }
 
@@ -180,8 +180,8 @@
     transition-duration: 250ms;
     transition-property: solid, background-color, fill;
 
-    :focus {
-        outline: 2px solid var(--accent-color);
+    &:focus {
+        outline: 2px solid $accent-color;
     }
 }
 
